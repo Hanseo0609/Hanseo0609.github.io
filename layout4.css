@@ -1,0 +1,182 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-page {
+  background: linear-gradient(#89b2ff, #3247ff);
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.main-container {
+  padding-top: 60px;
+  padding-left: 80px;
+  width: 100%;
+}
+
+
+
+.main-title {
+  margin: 0 auto;
+  color: white;
+}
+
+.main-content {
+  color: white;
+}
+
+.main-btn {
+  width: 100px;
+  height: 45px;
+  background-color: rgb(53, 52, 52);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+.main-phone {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 80px;
+  bottom: 1px;
+}
+
+.main-page2 {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  margin-top: 176px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.main-page3 {  
+  background-color: #5061fe;
+  width: 100%;
+  height: 400px;
+}
+
+.main-page3-title {
+  text-align: center;
+  color: white;
+}
+
+.main-page3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page3-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page3-container i {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 32px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #5061fe;
+}
+
+.main-page4 {
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+
+.portfolio {
+  margin-left: 160px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.portfolio-container {
+  position: relative;
+}
+
+.portfolio-box:hover .portfolio-img {
+  position: absolute;
+  z-index: 1;
+  width: 560px;
+  height: 360px;
+  border: 20px solid white;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier();
+}
+
+
+.portfolio-box {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+.portfolio-content {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.portfolio-img {
+  width: 600px;
+  height: 400px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container i {
+  background-color: #5061fe;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 32px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .main-phone {
+    width: 100px;
+    display: block;
+    position: absolute;
+  }
+}
